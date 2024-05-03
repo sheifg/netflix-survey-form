@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./images/background_image.jpg");
+}
+
+#form-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 1240px;
+    /* height: it is better not use this */
+    margin: 30px auto; 
+    /* top margin given 30px and auto because i need in the middle of the screen */
+    /* height: 400px; you dont need to include because the height of the page is according that you code written */
+}
+header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#form-title {
+    font-family: "Bowlby One SC", sans-serif;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+#form-span {
+    color: rgb(255, 0, 0);
+    
+}
+
+#form-description {
+    font-family: "Sorts Mill Goudy", serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 23px;
+}
+
+#form-layout {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: auto;
+    /* margin: auto to put in the middle */
+}
+
+.form-box {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+   margin: 20px auto;
+   /* 20px top and bottom and auto for right and left */
+
+}
+
+#Name, #Age, #Email, #typeoc {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    /* in Figma you can find all info about the padding and margin selecting the rectangle of the name */
+}
+
+#firstCheck {
+    margin-top: 5px;
+}
+
+.radio-box {
+    padding-top: 27px;
+}
+
+#feedback {
+    margin-top: 10px;
+}
+
+.form-button {
+    width: 160px;
+    margin: auto;
+    /*  you need thebutton in the middle, so margin:auto */
+    margin-top: 15px;
+}
+
+#submit-btn {
+    color: whitesmoke;
+    background-color: red;
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+ }
+ 

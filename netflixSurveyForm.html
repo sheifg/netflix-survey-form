@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-container">
+        <header>
+            <h1 id="form-title">NET<span id="form-span">FLIX</span></h1>
+        <p id="form-description">Thank you for signig up at Netflix. Tell us more about yourself.</p>
+        </header>
+        <section id="form-layout">
+            <form action="./result.html" method="get">
+                <div class="form-box">
+                    <label for="Name">Name</label>
+                    <br>
+                    <input type="text" id="Name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-box">
+                    <label for="Age">Age</label>
+                    <br>
+                    <input type="text" id="Age" name="age" placeholder="Enter your age">
+                </div>
+                <div class="form-box">
+                    <label for="Email">Email</label>
+                    <br>
+                    <input type="email" id="Email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form-box">
+                    <label for="typeoc">Content type</label>
+                    <br>
+                    <select name="contentType" id="typeoc">
+                        <option value="series">Series</option>
+                        <option value="Movies">Movies</option>
+                        <option value="Shows">Shows</option>
+                    </select>
+                </div>
+                <div class="form-box">
+                    <label for="movieType">Movie type</label>
+                    <br>
+                    <input type="checkbox"id="firstCheck" name="genre" value="comedy">
+                    <label for="firstCheck">Comedy</label>
+                    <br>
+                    <input type="checkbox"id="secondCheck" name="genre" value="action">
+                    <label for="secondCheck">Action</label>
+                    <br>
+                    <input type="checkbox"id="thridCheck" name="genre" value="romance">
+                    <label for="thirdCheck">Romance</label>
+                    <br>
+                </div>
+                <div class="form-box radio-box">
+                    <label for="genderOfUsers">Gender</label>
+                    <br>
+                    <input type="radio" id="gender" name="gender" value="male">
+                    <label for="gender">Male</label>
+                    <br>
+                    <input type="radio" id="gender" name="gender" value="female"><label for="gender">Female</label>
+                    <br>
+                    <input type="radio" id="gender" name="gender" value="other"><label for="gender">Other</label>
+                    <br>
+                </div>
+                <div class="form-box">
+                    <label for="feedback">Feedback</label>
+                    <br>
+                    <textarea name="comments" id="feedback" cols="60" rows="5" placeholder="Any comment" style="resize: none"></textarea>
+                    <!-- reisze:none -> it should be used to prevent the user from being able to change the size  -->
+                </div>
+                <div class="form-button">
+                    <input type="submit" value="send" id="submit-btn">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
