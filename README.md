@@ -3,7 +3,7 @@
 
 ### **Project description:**
 
-The task is to create a netflix survey form within HTML and CSS.
+The task of this coding is to create a netflix survey form within HTML and CSS.
 
 ### **Project objectives:**
 
